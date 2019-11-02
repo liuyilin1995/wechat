@@ -1,0 +1,87 @@
+.logoview{
+	display:flex;
+	justify-content:space-between;
+	padding-left:30rpx;
+	padding-right:30rpx;
+	align-items:center; 
+	height:100rpx;
+	background:#fff;
+}
+.logo{
+	width:182rpx;
+	height:52rpx;
+}
+.seach{
+	width:40rpx;
+	height:40rpx;
+
+}
+.lunbo {
+	width:750rpx;
+	height:300rpx;
+	vertical-align: bottom;
+}
+.lessonimg{
+	width:75rpx;
+	height:75rpx;
+	
+}
+.lessonlist{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	height:200rpx;
+	background: #fff;
+}
+.lessonlist view{
+	height:120rpx;
+	width:104rpx;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+} 
+
+ .textless{
+	font-size: 26rpx;
+	margin-top: 10rpx;
+} 
+.jiuye{
+	margin-top: 30rpx;
+	background: #fff;
+}  
+.jiuye-nav{
+	display:flex;
+	justify-content: space-between;
+	padding:30rpx 30rpx 15rpx 30rpx;
+	font-size: 35rpx;
+}
+.java-img{
+	width:380rpx;
+	height:225rpx;
+	border-radius: 15rpx;
+}
+.lesson-nav{
+	display: flex;
+	margin-top:15rpx;
+	padding:0 30rpx;
+}
+.less-intro{
+	font-size: 30rpx;
+}
+.people{
+	display: flex;
+	justify-content:space-around; 
+}
+.stu-person{
+	font-size: 30rpx;
+}
+.money{
+	font-size: 30rpx;
+	color:#ff0000;
+}
+.right-less{
+	padding-left:20rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around; 
+}

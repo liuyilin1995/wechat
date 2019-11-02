@@ -1,0 +1,43 @@
+<import src="/public/template/list.wxml" />
+<view class="logoview">
+	<view>
+		<image class="logo" src="https://m.boxuegu.com/_nuxt/img/logo.4ba874d.png" />
+	</view>
+	<view>
+		<image class="seach" src="https://m.boxuegu.com/_nuxt/img/search.f2a123d.png" />
+	</view>
+</view>
+<view>
+	<image src="https://attachment-center.boxuegu.com/data/picture/online/2019/10/24/19/b1f719e9ae634064b1aec28588c42bc4.jpg" class="lunbo" />
+</view>
+<view class="lessonlist">
+	<block wx:for="{{images}}" wx:key="image">
+		<view>
+			<image class="lessonimg" src="{{item.image1}}" />
+			<text class="textless" >{{item.text1}}</text>
+		</view>
+		<view>
+			<image class="lessonimg" src="{{item.image2}}" />
+			<text class="textless" >{{item.text2}}</text>
+		</view>
+		<view>	
+			<image class="lessonimg" src="{{item.image3}}" />
+			<text class="textless" >{{item.text3}}</text>
+		</view>
+		<view>	
+			<image class="lessonimg" src="{{item.image4}}" />
+			<text class="textless" >{{item.text4}}</text>
+		</view>
+	</block>
+</view>
+
+<view class="jiuye">
+	<view class="jiuye-nav">
+		<view>就业课</view>
+		<view>更多</view>
+	</view>
+	<block wx:for="{{[1,2,3,4,5,6,7]}}" wx:key="aa">
+		<template is="list" />	
+	</block>
+	
+</view>

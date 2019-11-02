@@ -1,0 +1,8 @@
+<!--pages/c/c.wxml-->
+<text>pages/c/c.wxml</text>
+<view >{{age}}</view>
+<!-- <view>{{user.name}}--{{user.age}}--{{user.sex}}</view> -->
+<block wx:for="{{user}}" wx:key="aaa">
+	<view>{{item.name}}</view>
+	
+</block>

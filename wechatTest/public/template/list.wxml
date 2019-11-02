@@ -1,0 +1,15 @@
+<template name="list">
+	<view class="lesson-nav">
+		<view>
+			<image class="java-img" src="https://file.boxuegu.com/f6c878722f394a7c9bd12c0319f00037.png" />
+		</view>
+		<view class="right-less">
+			<view>JavaEE</view>
+			<view class="less-intro">sdafasdfasdfasdfasdf过分的话过分的话对方过后的</view>
+			<view class="people">
+				<view class="stu-person">几人学习</view>
+				<view class="money">￥222222</view>
+			</view>
+		</view>
+	</view>
+</template>

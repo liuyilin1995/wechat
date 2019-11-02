@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/c/c",
+    "pages/b/b",
+    "pages/a/a",
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff000",
+    "navigationBarTitleText": "博学谷",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eee"
+    
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FF2D4A",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/c/c",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "小祖宗",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
