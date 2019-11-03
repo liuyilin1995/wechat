@@ -13,3 +13,23 @@
 		</view>
 	</view>
 </template>
+<template name="less">
+	<view class="tuijian-nav">
+		<view>
+			<view><image class="tuijian-img" src="https://file.boxuegu.com/989b9bd2a12d471b8e7579b7182d08b6.png" /></view>
+			<view class="suoyouren">所有人都能学习...</view>
+			<view class="peo-mon">
+				<veiw class="stu-person">555人学习</veiw>
+				<veiw class="money">￥555</veiw>
+			</view>
+		</view>
+		<view>
+			<view><image class="tuijian-img" src="https://file.boxuegu.com/989b9bd2a12d471b8e7579b7182d08b6.png" /></view>
+			<view class="suoyouren">所有人都能学习...</view>
+			<view class="peo-mon">
+				<veiw class="stu-person">555人学习</veiw>
+				<veiw class="money">￥555</veiw>
+			</view>
+		</view>
+	</view>
+</template>

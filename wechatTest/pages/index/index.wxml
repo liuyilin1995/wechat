@@ -36,8 +36,16 @@
 		<view>就业课</view>
 		<view>更多</view>
 	</view>
-	<block wx:for="{{[1,2,3,4,5,6,7]}}" wx:key="aa">
+	<block wx:for="{{[1,2]}}" wx:key="aa">
 		<template is="list" />	
 	</block>
-	
+</view>
+<view class="tuijian-less">
+	<view class="tuijiaokecheng">
+		<view>推荐课程</view>
+		<view>更多</view>
+	</view>
+	<block wx:for="{{[1,2]}}" wx:key="bb">
+		<template is="less" />	
+	</block>
 </view>

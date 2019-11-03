@@ -85,3 +85,28 @@
 	flex-direction: column;
 	justify-content:space-around; 
 }
+.tuijian-img{
+	width:320rpx;
+	height:250rpx;
+	border-radius: 15rpx;
+}
+.tuijian-nav{
+	display: flex;
+	justify-content:space-around;
+	margin:30rpx;
+}
+.tuijiaokecheng{
+	display: flex;
+	justify-content:space-between;
+	padding:30rpx 30rpx 15rpx 30rpx;
+	font-size: 35rpx;
+}
+.tuijian-less{
+	background: #fff;
+	margin-top: 30rpx;
+}
+.peo-mon{
+	display: flex;
+	justify-content:space-between;
+}
+
